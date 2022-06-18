@@ -32,8 +32,3 @@ def lst_comp():
             
        
 lst_comp()
-
-           
-
-
-
