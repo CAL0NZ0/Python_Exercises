@@ -13,10 +13,9 @@ b = random.sample(range(1,101),lst_amount)
 common_list = []
 
 for num in a:
-    if num in b:
-        if num not in common_list:
+    if num in b and num not in common_list:
             common_list.append(num)
-
-for x in common_list:
+        
+for x in sorted(common_list):
     print(x)
     
