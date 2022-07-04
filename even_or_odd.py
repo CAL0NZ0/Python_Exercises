@@ -1,4 +1,4 @@
-#this code takes a number as input and prints if the number is even or odd.
+# This code takes a number as input and prints if the number is even or odd.
 
 x = int(input("Type in a number: "))
 

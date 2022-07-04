@@ -1,6 +1,6 @@
 # This code takes a number as input and generates a list twice as long with
 #   random number between 1 and ten times the input. It prints the list then
-#   prints a new list containing only the first and last elemnts of the array
+#   prints a new list containing only the first and last elements of the array
 
 import random
 

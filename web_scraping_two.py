@@ -1,4 +1,4 @@
-# This program will write to a .txt file all the article titles on the NY Times homepage.
+# This program will write to a .txt file of all the article titles on the NY Times homepage.
 
 import requests
 from bs4 import BeautifulSoup

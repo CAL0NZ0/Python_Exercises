@@ -1,2 +1,3 @@
-with open('practice.txt', "a") as file:
-  file.write('\nIan')
+# with open('practice.txt', "a") as file:
+#   file.write('\nIan')
+

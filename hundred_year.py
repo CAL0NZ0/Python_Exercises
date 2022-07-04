@@ -1,5 +1,4 @@
-#this code takes your name and age as input and out puts a message telling
-#   you what year you will be 100 years old in
+# This code takes your name and age as input and out puts a message telling you what year you will be 100 years old in
 
 name = str(input("Enter your name: "))
 age = int(input("Enter your age: "))
