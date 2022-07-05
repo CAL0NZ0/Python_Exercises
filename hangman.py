@@ -1,6 +1,6 @@
 # This is Hangman. It references the file sowpods_list.txt.
 
-from unicodedata import name
+
 import requests
 import random
 from bs4 import BeautifulSoup
