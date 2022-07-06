@@ -1,5 +1,4 @@
-# This code takes a number as input and outputs a list of all the different
-#   divisors of the number. 
+# This code takes a number as input and outputs a list of all the different divisors of the number. 
 
 num = int(input('Enter number: '))
 divisor_list = []
