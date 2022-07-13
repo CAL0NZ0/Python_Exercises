@@ -1,10 +1,14 @@
 #this is a classic Rock, Paper, Scissors game. the code takes two inputs
 # and compares the inputs to choices to declare a winner
 
-p_one = str(input('Player one choice: ').lower())
-p_two = str(input('Player two choice: ').lower())
+import random
 
 choices = ('rock', 'paper', 'scissors')
+
+p_one = str(input('Player one choice: ').lower())
+p_two = random.choice(choices)
+
+
 
 def rockPaperScissors(p_one,p_two):
     

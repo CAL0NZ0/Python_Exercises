@@ -1,26 +1,36 @@
-# This is Guessing Game 2.0. I learned more about functions and decided to
-#   rewrite the code to include a counter that will print out how many times
-#   you played the game when you're done.
+# This is the Guessing Game 2. In this edition, the user inputs a number between 1 and 25. The computer will guess the number until it get's it correct.
 
 import random
+from webbrowser import get
 
-rd = random.randint(1,9)
-guess = None
-c = 0
-while guess != rd and guess != "exit":
-    guess = input("Enter a guess between 1 to 9")
+def get_num():
+    return int(input('Enter a number between 1 and 25: '))
 
-    if guess == "exit":
-        break
 
-    guess = int(guess)
-    c += 1
+def guessing_game2():
+    player = get_num()
+    lst = list(range(1, 101))
+    computer = None
+    count = 0
 
-    if guess < rd:
-        print("Too low")
-    elif guess > rd:
-        print("Too high")
-    else:
-        print("Right!")
-        print("You took only", c, "tries!")
-input()
+    
+    while computer != player:
+        computer = int(random.choice(lst))
+        count += 1
+
+        if computer < player:            
+            lst = list(range(computer + 1, computer + 10))
+
+        elif computer > player:            
+            lst = list(range(1, computer))
+            
+        else:
+            if count == 1:
+                print ('Computer guessed', player, 'in 1 try!')
+            else:
+                print('Computer guessed', player, 'in', count, 'tries!')
+        
+            
+        
+
+guessing_game2()

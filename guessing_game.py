@@ -1,7 +1,4 @@
-# This program generates a random number bewteen 1 and 9. The user
-#   guesses the number until the guess is correct. The computer
-#   will notify you if you are too low/high and then output
-#   the amount of tries is took you. 
+# This program generates a random number between 1 and 9. The user guesses the number until the guess is correct. The computer will notify you if you are too low/high and then output the amount of tries it took.
 
 # Type 'exit' as a guess to stop the program.
 

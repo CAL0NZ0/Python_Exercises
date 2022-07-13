@@ -1,6 +1,5 @@
-# This program generates two random sized list containing random numbers. If then
-#   generate.s a new list containing the common numbers in each list without any
-#   duplicates
+# This program generates two random sized list containing random numbers. It then generates a new list containing the common values of each list.
+
 
 
 import random

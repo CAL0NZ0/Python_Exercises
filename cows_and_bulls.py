@@ -1,7 +1,5 @@
-# This is 'Cows and Bulls'. The program will generate a random 4-digit number.
-#   The user will guess the number and the program will track if there is a
-#   correct guess in the correct place and show the amount of 'Cows' for any 
-#   correct guess and 'Bulls' for wrong guesses.
+# This is 'Cows and Bulls'. The program will generate a random 4-digit number. The user will guess the number and the program will track if there is a correct guess in the correct place and show the amount of 'Cows' for any correct guess in the correct place and show the amount of 'Cows' for any correct guess and 'Bulls' for wrong guesses.
+
 
 import random
 import functions
